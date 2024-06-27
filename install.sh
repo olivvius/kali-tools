@@ -2,8 +2,7 @@
 
 # Mise à jour et mise à niveau des paquets
 echo "Mise à jour et mise à niveau des paquets..."
-sudo apt-get update -y && sudo apt-get upgrade -y
-
+sudo apt update && apt full-upgrade -y && apt install kali-linux-default
 # Installation de Python 3, pip et git
 echo "Installation de Python 3, pip et git..."
 sudo apt-get install -y python3 python3-pip git python3-setuptools python3-tk7
